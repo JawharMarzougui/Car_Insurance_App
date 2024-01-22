@@ -32,9 +32,12 @@ The project uses AI-generated images, Car_DD dataset for real damaged cars, Kagg
 
 ## Usage
 
-1. Install dependencies.
-2. Train and save models.
-3. Run the Streamlit app:
+1. Install dependencies:
+
+       ```bash
+    pip install requirements.txt
+    ```
+2. Run the Streamlit app:
 
     ```bash
     streamlit run app.py
