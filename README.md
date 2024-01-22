@@ -2,7 +2,13 @@
 
 ## Overview
 
-The Car Insurance Project provides features for car damage assessment and insurance prediction. It includes:
+The Car Insurance Project aims to provide users with a comprehensive set of features related to car damage assessment and insurance prediction. The project utilizes various machine learning models to detect fake images, measure the severity of damage, identify damaged parts within images, and predict the repair cost.
+
+## Dataset
+
+The project uses AI-generated images, Car_DD dataset for real damaged cars, Kaggle dataset for severity classification, and a custom repair cost dataset.
+
+## Models
 
 1. **Fake Image Detection**
     - Uses a VGG16-based model to distinguish AI-generated and real damaged car images.
@@ -15,20 +21,6 @@ The Car Insurance Project provides features for car damage assessment and insura
 
 4. **Repair Cost Prediction**
     - Implements linear regression for predicting repair costs.
-
-## Dataset
-
-The project uses AI-generated images, Car_DD dataset for real damaged cars, Kaggle dataset for severity classification, and a custom repair cost dataset.
-
-## Models
-
-1. **Fake Image Detection Model (VGG16)**
-
-2. **Damage Severity Classification Model (MobileNetV2)**
-
-3. **Damaged Parts Detection Model (YOLOv8)**
-
-4. **Repair Cost Prediction Model (Linear Regression)**
 
 ## Usage
 
