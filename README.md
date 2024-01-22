@@ -35,12 +35,23 @@ The Car Insurance Project aims to provide users with a comprehensive set of feat
 
 ## Usage
 
-1. Install dependencies:
+1. Clone the Repository
+   
+   ```bash
+   git clone https://github.com/JawharMarzougui/Car_Insurance_App.git
+   ```
+2. Navigate to the Local Repository
+   
+   ```bash
+   cd Car_Insurance_App
+   ```
+
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
-2. Run the Streamlit app:
+4. Run the Streamlit app:
 
     ```bash
     streamlit run demo.py
@@ -52,7 +63,3 @@ The Car Insurance Project aims to provide users with a comprehensive set of feat
 - Car_DD dataset for real damaged car images.
 - Kaggle for severity classification dataset.
 - Roboflow for the damaged parts detection model
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
