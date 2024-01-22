@@ -43,7 +43,7 @@ The Car Insurance Project aims to provide users with a comprehensive set of feat
 2. Run the Streamlit app:
 
     ```bash
-    streamlit run app.py
+    streamlit run demo.py
     ```
 
 ## Acknowledgments
