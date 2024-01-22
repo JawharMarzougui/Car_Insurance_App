@@ -23,16 +23,12 @@ The project uses AI-generated images, Car_DD dataset for real damaged cars, Kagg
 ## Models
 
 1. **Fake Image Detection Model (VGG16)**
-    - ...
 
 2. **Damage Severity Classification Model (MobileNetV2)**
-    - ...
 
 3. **Damaged Parts Detection Model (YOLOv8)**
-    - Trained on a dataset of damaged car images.
 
 4. **Repair Cost Prediction Model (Linear Regression)**
-    - ...
 
 ## Usage
 
