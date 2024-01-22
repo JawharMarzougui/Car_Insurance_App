@@ -4,9 +4,20 @@
 
 The Car Insurance Project aims to provide users with a comprehensive set of features related to car damage assessment and insurance prediction. The project utilizes various machine learning models to detect fake images, measure the severity of damage, identify damaged parts within images, and predict the repair cost.
 
-## Dataset
+1. **AI-Generated Images**
+    - Dataset of AI-generated car images using stable diffusion.
+    - [AI-Generated Dataset](URL_TO_AI_GENERATED_DATASET)
 
-The project uses AI-generated images, Car_DD dataset for real damaged cars, Kaggle dataset for severity classification, and a custom repair cost dataset.
+2. **Car_DD Dataset**
+    - Real damaged car images from the Car_DD dataset.
+    - [Car_DD Dataset](https://drive.google.com/file/d/1bbyqVCKZX5Ur5Zg-uKj0jD0maWAVeOLx/view)
+
+3. **Kaggle Severity Classification Dataset**
+    - Kaggle dataset used for severity classification.
+    - [Kaggle Severity Dataset](https://www.kaggle.com/datasets/prajwalbhamere/car-damage-severity-dataset)
+
+4. **Custom Repair Cost Dataset**
+    - Custom-generated dataset for repair cost prediction.
 
 ## Models
 
@@ -40,6 +51,7 @@ The project uses AI-generated images, Car_DD dataset for real damaged cars, Kagg
 - Stable diffusion for AI-generated images.
 - Car_DD dataset for real damaged car images.
 - Kaggle for severity classification dataset.
+- Roboflow for the damaged parts detection model
 
 ## License
 
