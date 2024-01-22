@@ -6,7 +6,7 @@ The Car Insurance Project aims to provide users with a comprehensive set of feat
 
 1. **AI-Generated Images**
     - Dataset of AI-generated car images using stable diffusion.
-    - [AI-Generated Dataset](URL_TO_AI_GENERATED_DATASET)
+    - [AI-Generated Dataset]( https://colab.research.google.com/github/woctezuma/stable-diffusion-colab/blob/main/stable_diffusion.ipynb#scrollTo=AUc4QJfE-uR9)
 
 2. **Car_DD Dataset**
     - Real damaged car images from the Car_DD dataset.
@@ -38,12 +38,12 @@ The Car Insurance Project aims to provide users with a comprehensive set of feat
 1. Install dependencies:
 
     ```bash
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 2. Run the Streamlit app:
 
     ```bash
-    streamlit run app.py
+    streamlit run demo.py
     ```
 
 ## Acknowledgments
