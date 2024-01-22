@@ -34,7 +34,7 @@ The project uses AI-generated images, Car_DD dataset for real damaged cars, Kagg
 
 1. Install dependencies:
 
-       ```bash
+    ```bash
     pip install requirements.txt
     ```
 2. Run the Streamlit app:
